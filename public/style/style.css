@@ -600,30 +600,6 @@ html {
   position: relative;
 }
 
-.left-\[50rem\] {
-  left: 50rem;
-}
-
-.left-0 {
-  left: 0px;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.z-10 {
-  z-index: 10;
-}
-
-.z-0 {
-  z-index: 0;
-}
-
-.z-20 {
-  z-index: 20;
-}
-
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -646,18 +622,6 @@ html {
 
 .w-full {
   width: 100%;
-}
-
-.min-w-full {
-  min-width: 100%;
-}
-
-.max-w-screen-xl {
-  max-width: 1280px;
-}
-
-.max-w-full {
-  max-width: 100%;
 }
 
 .cursor-pointer {
@@ -699,6 +663,18 @@ html {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.pr-\[300rem\] {
+  padding-right: 300rem;
+}
+
+.pl-\[300rem\] {
+  padding-left: 300rem;
+}
+
+.pl-\[30rem\] {
+  padding-left: 30rem;
 }
 
 .shadow-sm {
@@ -749,39 +725,5 @@ html {
 
   .lg\:text-\[20px\] {
     font-size: 20px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:left-20 {
-    left: 5rem;
-  }
-
-  .xl\:left-96 {
-    left: 24rem;
-  }
-
-  .xl\:left-\[-90rem\] {
-    left: -90rem;
-  }
-
-  .xl\:left-\[90rem\] {
-    left: 90rem;
-  }
-
-  .xl\:left-\[100rem\] {
-    left: 100rem;
-  }
-
-  .xl\:left-\[50rem\] {
-    left: 50rem;
-  }
-
-  .xl\:flex {
-    display: flex;
-  }
-
-  .xl\:justify-between {
-    justify-content: space-between;
   }
 }
